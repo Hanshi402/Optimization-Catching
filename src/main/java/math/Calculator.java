@@ -1,6 +1,6 @@
 package math;
 public class Calculator {
-    //Push 2
+    //Push 1
     public int add(int a, int b) {
         return a + b;
     }

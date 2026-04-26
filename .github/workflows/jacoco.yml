@@ -14,6 +14,7 @@ jobs:
           java-version: '25'
           distribution: 'oracle'
           cache: 'maven'
+          cache-dependency-path: 'pom.xml'
       - name: Run Tests and Check Coverage (JaCoCo)
         run: mvn -B verify
       - name: Upload JaCoCo Coverage Report
